@@ -1,0 +1,40 @@
+/*--------------- reset start---------------------- */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: normal 12px "微软雅黑",Arial,sans-serif;
+	overflow-x: hidden;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+ul,li {
+	list-style: none;
+}
+
+img {
+	display: block;
+}
+
+.clear:after {
+	content: "0";
+	display: block;
+	width: 0;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+	*zoom: 1;
+}
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+/*--------------- reset finish---------------------- */

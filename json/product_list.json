@@ -1,0 +1,299 @@
+
+
+
+[
+	{
+		"bigImgSrc":"img/product_list_img/11711101_big--w_220_h_220.jpg",
+		"title":"加内特狼王系列纪念版战靴",
+		"price":599.00,
+		"hasTag":true,
+		"smallImgSrcArr":["img/product_list_img/11711101_2_01--w_30_h_30.jpg",
+						"img/product_list_img/11711101_3_01--w_30_h_30.jpg",
+						"img/product_list_img/11711101_7_01--w_30_h_30.jpg",
+						"img/product_list_img/11711101_8_01--w_30_h_30.jpg"],
+		"brand":"安踏",
+		"bigClass":"鞋类",
+		"smallClass":"篮球鞋",
+		"sex":"男",
+		"series":"篮球系列",
+		"season":"夏季",
+		"size":"35",
+		"technology":"吸湿速干",
+		"typeStyle":"适脚鞋型"
+		
+	},
+	{
+		"bigImgSrc":"img/product_list_img/11715505_big--w_220_h_220.jpg",
+		"title":"男子弹力胶缓震跑鞋",
+		"price":399.00,
+		"hasTag":true,
+		"smallImgSrcArr":["img/product_list_img/11715505_1_01--w_30_h_30.jpg",
+						"img/product_list_img/11715505_2_01--w_30_h_30.jpg",
+						"img/product_list_img/11715505_4_01--w_30_h_30.jpg",
+						"img/product_list_img/11715505_5_01--w_30_h_30.jpg"],
+						
+		"brand":"安踏",
+		"bigClass":"鞋类",
+		"smallClass":"篮球鞋",
+		"sex":"男",
+		"series":"篮球系列",
+		"season":"春季",
+		"size":"40",
+		"technology":"吸湿速干",
+		"typeStyle":"宽松鞋型"
+		
+	},
+	{
+		"bigImgSrc":"img/product_list_img/11711004_big--w_220_h_220.jpg",
+		"title":"男子五驱科技篮球鞋",
+		"price":329.00,
+		"hasTag":false,
+		"smallImgSrcArr":["img/product_list_img/11711004_2_01--w_30_h_30.jpg",
+						"img/product_list_img/11711004_4_01--w_30_h_30.jpg",
+						"img/product_list_img/11711004_5_01--w_30_h_30.jpg",
+						"img/product_list_img/11711004_9_01--w_30_h_30.jpg"],
+		"brand":"安踏",
+		"bigClass":"鞋类",
+		"smallClass":"篮球鞋",
+		"sex":"男",
+		"series":"篮球系列",
+		"season":"冬季",
+		"size":"42",
+		"technology":"五驱掌控",
+		"typeStyle":"宽松鞋型"
+		
+	},
+	{
+		"bigImgSrc":"img/product_list_img/11641101_big--w_220_h_220.jpg",
+		"title":"汤普森二代战靴主/客场",
+		"price":499.00,
+		"hasTag":true,
+		"smallImgSrcArr":["img/product_list_img/11641101_2_01--w_30_h_30.jpg",
+						"img/product_list_img/11641101_3_01--w_30_h_30.jpg",
+						"img/product_list_img/11641101_6_01--w_30_h_30.jpg",
+						"img/product_list_img/11641101_7_01--w_30_h_30.jpg",
+						"img/product_list_img/11641101_8_01--w_30_h_30.jpg"],
+		"brand":"安踏",
+		"bigClass":"鞋类",
+		"smallClass":"篮球鞋",
+		"sex":"男",
+		"series":"篮球系列",
+		"season":"冬季",
+		"size":"35",
+		"technology":"吸湿速干",
+		"typeStyle":"适脚鞋型"
+		
+	},
+	{
+		"bigImgSrc":"img/product_list_img/11711112_big--w_220_h_220.jpg",
+		"title":"汤普森二代战靴全明星配色",
+		"price":499.00,
+		"hasTag":true,
+		"smallImgSrcArr":["img/product_list_img/11711112_2_01--w_30_h_30.jpg",
+						"img/product_list_img/11711112_3_01--w_30_h_30.jpg",
+						"img/product_list_img/11711101_7_01--w_30_h_30.jpg"],
+		
+		"brand":"安踏",
+		"bigClass":"鞋类",
+		"smallClass":"篮球鞋",
+		"sex":"男",
+		"series":"篮球系列",
+		"season":"冬季",
+		"size":"43",
+		"technology":"弹力莱卡",
+		"typeStyle":"适脚鞋型"
+	},
+	
+
+
+
+	{
+		"bigImgSrc":"img/product_list_img/15718744_big--w_220_h_220.jpg",
+		"title":"男子透气针织运动长裤",
+		"price":189.00,
+		"hasTag":false,
+		"smallImgSrcArr":["img/product_list_img/15718744_1_01--w_30_h_30.jpg",
+						"img/product_list_img/15718744_2_01--w_30_h_30.jpg"],
+		"brand":"安踏",
+		"bigClass":"服装",
+		"smallClass":"针织长裤",
+		"sex":"男",
+		"series":"综训系列",
+		"season":"夏季",
+		"size":"M",
+		"technology":"吸湿速干",
+		"typeStyle":"修身版型"
+		
+	},
+	{
+		"bigImgSrc":"img/product_list_img/16718702_big--w_220_h_220.jpg",
+		"title":"女子挺括针织运动上衣",
+		"price":239.00,
+		"hasTag":false,
+		"smallImgSrcArr":["img/product_list_img/16718702_2_01--w_30_h_30.jpg",
+						"img/product_list_img/16718702_4_01--w_30_h_30.jpg",
+						"img/product_list_img/16718702_5_01--w_30_h_30.jpg"],
+						
+		"brand":"安踏",
+		"bigClass":"服装",
+		"smallClass":"针织外套",
+		"sex":"女",
+		"series":"跑步系列",
+		"season":"春季",
+		"size":"L",
+		"technology":"吸湿速干",
+		"typeStyle":"常规版型"
+		
+	},
+	{
+		"bigImgSrc":"img/product_list_img/16718704_big--w_220_h_220.jpg",
+		"title":"女子挺括针织运动上衣",
+		"price":239.00,
+		"hasTag":false,
+		"smallImgSrcArr":["img/product_list_img/16718702_5_01--w_30_h_30.jpg",
+						"img/product_list_img/16718704_3_01--w_30_h_30.jpg"],
+		"brand":"安踏",
+		"bigClass":"服装",
+		"smallClass":"针织外套",
+		"sex":"女",
+		"series":"跑步系列",
+		"season":"春季",
+		"size":"M",
+		"technology":"吸湿速干",
+		"typeStyle":"常规版型"
+		
+	},
+	{
+		"bigImgSrc":"img/product_list_img/15647716_big--w_220_h_220.jpg",
+		"title":"男子动型针织运动上衣",
+		"price":199.00,
+		"hasTag":false,
+		"smallImgSrcArr":["img/product_list_img/15647716_1_01--w_30_h_30.jpg",
+						"img/product_list_img/15647716_2_01--w_30_h_30.jpg"],
+		"brand":"安踏",
+		"bigClass":"服装",
+		"smallClass":"针织外套",
+		"sex":"男",
+		"series":"篮球系列",
+		"season":"冬季",
+		"size":"L",
+		"technology":"吸湿速干",
+		"typeStyle":"修身版型"
+		
+	},
+	{
+		"bigImgSrc":"img/product_list_img/15711722_big--w_220_h_220.jpg",
+		"title":"男子动型科技针织运动上衣",
+		"price":319.00,
+		"hasTag":false,
+		"smallImgSrcArr":["img/product_list_img/15711722_2_01--w_30_h_30.jpg",
+						"img/product_list_img/15711722_3_01--w_30_h_30.jpg",
+						"img/product_list_img/15711722_4_01--w_30_h_30.jpg"],
+		
+		"brand":"安踏",
+		"bigClass":"服装",
+		"smallClass":"梭织外套",
+		"sex":"男",
+		"series":"篮球系列",
+		"season":"冬季",
+		"size":"M",
+		"technology":"冰肤科技",
+		"typeStyle":"常规版型"
+	},
+	
+	
+	
+	{
+		"bigImgSrc":"img/product_list_img/35716430_big--w_220_h_220.jpg",
+		"title":"男童长袖针织衫",
+		"price":89.00,
+		"hasTag":false,
+		"smallImgSrcArr":["img/product_list_img/35716430_1_01--w_30_h_30.jpg",
+						"img/product_list_img/35716430_2_01--w_30_h_30.jpg"],
+		"brand":"安踏儿童",
+		"bigClass":"服装",
+		"smallClass":"长袖T恤",
+		"sex":"男",
+		"series":"生活系列",
+		"season":"春季",
+		"size":"M",
+		"technology":"吸湿速干",
+		"typeStyle":"修身版型"
+		
+	},
+	{
+		"bigImgSrc":"img/product_list_img/36538708_big--w_220_h_220.jpg",
+		"title":"女童时尚舒适休闲连帽针织上衣",
+		"price":179.00,
+		"hasTag":false,
+		"smallImgSrcArr":["img/product_list_img/36538708_1_01--w_30_h_30.jpg",
+						"img/product_list_img/36538708_2_01--w_30_h_30.jpg",
+						"img/product_list_img/36538708_3_01--w_30_h_30.jpg"],
+						
+		"brand":"安踏儿童",
+		"bigClass":"服装",
+		"smallClass":"针织外套",
+		"sex":"女",
+		"series":"跑步系列",
+		"season":"春季",
+		"size":"M",
+		"technology":"吸湿速干",
+		"typeStyle":"常规版型"
+		
+	},
+	{
+		"bigImgSrc":"img/product_list_img/35548791_big--w_220_h_220.jpg",
+		"title":"男童舒适纯棉休闲运动编织衫",
+		"price":119.00,
+		"hasTag":false,
+		"smallImgSrcArr":["img/product_list_img/35548791_1_01--w_30_h_30.jpg",
+						"img/product_list_img/35548791_2_01--w_30_h_30.jpg"],
+		"brand":"安踏儿童",
+		"bigClass":"服装",
+		"smallClass":"针织外套",
+		"sex":"男",
+		"series":"生活系列",
+		"season":"春季",
+		"size":"M",
+		"technology":"吸湿速干",
+		"typeStyle":"常规版型"
+		
+	},
+	{
+		"bigImgSrc":"img/product_list_img/36646970_big--w_220_h_220.jpg",
+		"title":"女童中长羽绒风衣",
+		"price":389.00,
+		"hasTag":false,
+		"smallImgSrcArr":["img/product_list_img/36646970_3_01--w_30_h_30.jpg"],
+		"brand":"安踏儿童",
+		"bigClass":"服装",
+		"smallClass":"针织外套",
+		"sex":"女",
+		"series":"生活系列",
+		"season":"冬季",
+		"size":"M",
+		"technology":"运动能量科技",
+		"typeStyle":"修身版型"
+		
+	},
+	{
+		"bigImgSrc":"img/product_list_img/36719750_big--w_220_h_220.jpg",
+		"title":"女童针织运动长裤",
+		"price":119.00,
+		"hasTag":false,
+		"smallImgSrcArr":["img/product_list_img/36719750_1_01--w_30_h_30.jpg",
+						"img/product_list_img/36719750_2_01--w_30_h_30.jpg"],
+		
+		"brand":"安踏",
+		"bigClass":"服装",
+		"smallClass":"针织长裤",
+		"sex":"女",
+		"series":"生活系列",
+		"season":"冬季",
+		"size":"M",
+		"technology":"冰肤科技",
+		"typeStyle":"常规版型"
+	}
+	
+
+]

@@ -1,0 +1,166 @@
+#wrap-main-register {
+	width: 100%;
+}
+.main-register {
+	background: #fff;
+    width: 400px;
+    height: 680px;
+    margin: 0 auto 20px;
+    padding-top: 40px;
+}
+
+.main-register .header {
+	padding: 23px 0 20px 20px;
+}
+
+.main-register form {
+	padding: 0 20px;
+}
+
+.main-register form h4 {
+	margin: 10px 0 20px;
+	font-size: 15px;
+	color: #666;
+}
+.main-register .reg-username input {
+	width: 340px;
+	padding: 10px;
+	margin-bottom: 15px;
+	outline: none;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+
+.main-register .reg-check-code input {
+	width: 211px;
+	padding: 10px;
+	margin-bottom: 15px;	
+	outline: none;
+	font-family: "微软雅黑";	
+	font-size: 14px;
+	
+}
+
+.main-register .check-code-box {
+	width: 120px;
+	height: 36px;
+	/*background: yellow;*/
+	margin: 5px 0 0 5px;
+	line-height: 36px;
+	text-align: center;
+	font-size: 18px;
+	letter-spacing: 8px;
+}
+
+.main-register form input.submit {
+	display: block;
+	width: 358px;
+	border: 0;
+	padding: 10px;
+	margin: 50px 0 10px;
+	background: #d71921;
+	font-size: 18px;
+	color: #fff;
+	outline: none;
+}
+
+.main-register .error-report {
+	height: 20px;
+	line-height: 20px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	color: #d71921;
+}
+
+.main-register .error-report em {
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	margin: 3px 5px 0 0;	
+	color: #fff;
+	border-radius: 50%;
+	background: #f00;
+	font-style: normal;
+	display: none;
+}
+.main-register .error-report p {
+	display: none;
+}
+
+/*------------------footer---------------------*/
+
+#wrap-reg-footer {
+	width: 100%;
+}
+.reg-footer {
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.reg-footer > p {
+	text-align: center;
+	color: #9d9d9d;
+	font-size: 14px;
+}
+
+.reg-footer div.footer-img {
+	text-align: center;
+}
+.reg-footer div.footer-img > a {
+	display: inline-block;
+}
+
+/* --------------------------bottom btn start------------------------------- */
+#bottom-button {
+	position: fixed;
+	bottom: 100px;
+	right: 30px;
+	z-index: 1000;
+}
+#bottom-button > div {
+	width: 72px;
+	height: 73px;
+	border-bottom: 1px solid #fff;
+	cursor: pointer;
+}
+#bottom-button > div.bottom-online-server {
+	background: url(../img/cart_img/r_qq.png) 0 0 no-repeat #fbb01f;
+}
+#bottom-button > div.bottom-online-server:hover {
+    background-color: #C73339;
+}
+
+#bottom-button > div.service-number {
+	position: relative;
+	background: url(../img/cart_img/r_phone.png) 0 0 no-repeat #d71921;
+}
+#bottom-button > div.service-number:hover {
+	 background-color: #c73339;
+}
+#bottom-button > div.service-number span {
+	background-color: #c73339;
+    position: absolute;
+    width: 160px;
+    left: -160px;
+    top: 0px;
+    line-height: 73px;
+    color: #FFF;
+    font-size: 18px;
+    text-align: center;
+    
+    display: none;
+}
+
+
+#bottom-button > div.back-to-top {
+	background: url(../img/cart_img/r_top.png) 0 0 no-repeat #666;
+	display: none;
+}
+#bottom-button > div.back-to-top:hover {
+	 background-color: #444;
+}
+/* --------------------------bottom btn end------------------------------- */

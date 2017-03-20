@@ -1,0 +1,88 @@
+/***************************footer start**********************************/
+#wrap-footer {
+	width: 100%;
+	margin-top: 50px;
+	border-top: 3px solid #e2e2e2;;
+}
+.footer {
+	width: 1190px;
+	margin: 30px auto;
+}
+
+.footer .footer-link {
+	padding: 0 10px;
+    border-right: 1px solid #dbdbdb;
+}
+.footer .footer-link li {
+	float: left;
+	width: 67px;
+	margin: 0 75px;
+}
+.footer .footer-link li:first-child {
+	margin-left: 0;
+}
+
+.footer h6 {
+	font-size: 16px;
+	line-height: 32px;	
+}
+.footer .footer-link li > a {
+	display: block;
+	line-height: 30px;
+}
+
+.footer .consult {
+	margin-left: 100px;
+}
+.footer .consult .server-tel {
+	width: 250px;
+	height: 40px;
+	margin: 5px 0 15px;
+	background: url(../img/index_img/service-icon.png)  no-repeat -13px -15px;
+}
+.footer .consult .server-btn {
+	width: 135px;
+	height: 25px;
+	margin-bottom: 10px;
+	line-height: 25px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	text-indent: 50px;
+	font-size: 14px;
+	background: url(../img/index_img/service-icon.png) no-repeat -8px -181px;
+	cursor: pointer;
+}
+.footer .consult .server-btn:hover {
+	color: #fff;
+	border-color: #f00;
+	background: url(../img/index_img/service-icon.png) no-repeat -8px -148px #f00;
+	
+}
+
+/***************************footer finish**********************************/
+
+/******************copyright start************************/
+#wrap-copyright {
+	width: 100%;
+	background: #000;
+	color: #fff;	
+}
+#wrap-copyright a {
+	color: #fff;
+}
+.copyright {
+	width: 1190px;
+	height: 60px;
+	line-height: 60px;
+	margin: 0 auto;
+}
+.copyright .copyright-left .honest-icon {
+	 margin: 15px 20px 0 35px;
+}
+.copyright .copyright-left .icon-2 {
+	margin: 10px 20px 0 30px;
+}
+#wrap-copyright .copyright .site-map a:hover {
+	color: #f00;
+}
+/******************copyright finish************************/

@@ -1,0 +1,502 @@
+
+
+
+/*-------------------------------product detail start----------------------------------------*/
+
+/*-----product header start--------*/
+#wrap-product-detail {
+	width: 100%;
+	position: relative;
+	
+}
+.product-detail {
+	width: 1190px;
+	margin: 0 auto;
+
+}
+.product-detail .bread-nav {
+	margin: 25px 0 15px;
+}
+.product-detail .bread-nav > a {
+	padding-right: 14px;
+	color: #666;
+	position: relative;
+}
+.product-detail .bread-nav > a:after {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 10px;
+	height: 100%;
+	background: url(../img/product_detail_img/list_select_icon.png) 1px -101px no-repeat;
+}
+.product-detail .bread-nav > a:last-child:after {
+	width: 0;
+	height: 0;
+}
+/*-----product header finish--------*/
+
+/*--------------samll - img---------------*/
+.product-detail .small-img-list {
+	width: 100px;
+	height: 600px;
+	overflow: hidden;
+}
+.product-detail .small-img-list .scroll-btn {
+	display: block;
+	width: 27px;
+	height: 27px;
+	margin: 0 auto;
+	background: url(../img/product_detail_img/dtl-icon.png) 2px -1px no-repeat; /*需要注册点击事件，改变背景颜色*/
+	cursor: pointer;
+}
+.product-detail .small-img-list .last-btn {
+	background: url(../img/product_detail_img/dtl-icon.png) 2px -30px no-repeat;
+}
+
+.product-detail .small-img-box {
+	width: 100px;
+	height: 524px;
+	margin: 15px 0;
+	overflow: hidden;
+}
+.product-detail .small-img-box ul > li {
+	width: 98px;
+	height: 98px;
+	float: left;
+	overflow: hidden;
+	border: 1px solid #e5e5e5;
+	margin-bottom: 5px;
+	position: relative;
+	cursor: pointer;
+}
+.product-detail .small-img-box > ul {
+	display: none;
+}
+.product-detail .small-img-box > .select-small-img-list {
+	display: block;
+}
+
+.product-detail .small-img-box ul > li.select-small-img:after {
+	content: "";
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	border: 3px solid #e5e5e5;
+}
+.product-detail .small-img-box > ul > li > img {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/*---------show box------------*/
+.product-detail .show-box {
+	width: 594px;
+	height: 594px;
+	margin: 0 20px;
+	border: 3px solid #eee;
+	/*overflow: hidden;*/
+	position: relative;
+}
+.product-detail .show-box > img {
+	width: 594px;
+	height: 594px;
+}
+
+.product-detail .show-box .choose-area {
+	width: 235px;
+	height: 210px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #000;
+	opacity: 0.15;
+	filter: alpha(opacity=15);
+	border: 1px solid #fff;
+	cursor: crosshair;
+	display: none;
+}
+
+.product-detail .show-box .show-detail {
+	width: 450px;
+	height: 595px;
+	position: absolute;
+	top: -3px;
+	left: 615px;
+	z-index: 9999;
+	border: 3px solid #e5e5e5;
+    overflow: hidden;
+    background: url(../img/product_detail_img/11711112_2_01.jpg) 0 0 no-repeat #fff;
+    display: none;
+}
+
+/*-------right side info area-----------*/
+
+.product-detail .pro-info {
+	width: 450px;
+}
+.product-detail .pro-info .detail-header {
+	margin-bottom: 10px;
+}
+.product-detail .pro-info .detail-header h1 span {
+    color: #666464;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 6px;
+    line-height: 18px;
+}
+
+.product-detail .pro-info .detail-header .comment {    /*  -点击会跳转到评论-  */
+	height: 16px;
+	margin: 5px 0;
+}
+.product-detail .pro-info .detail-header .comment .comment-state {
+	height: 100%;
+	width: 60px;
+	margin: 5px 4px 0 0;
+	overflow: hidden;
+}
+.product-detail .pro-info .detail-header .comment .comment-count {
+	height: 100%;
+	line-height: 16px;
+	color: #fa5400;
+}
+
+.product-detail .pro-info .price {
+	border-top: 2px solid #ccc;
+}
+.product-detail .pro-info .price > h3 {
+	padding: 10px 0;
+	font-size: 18px;
+	font-weight: normal;
+	color: #c40000;
+}
+.product-detail .pro-info .price > h3 span {
+	font-size: 28px;
+	text-align: right;
+	font-weight: normal;
+	padding-left: 10px;
+}
+.product-detail .pro-info .price > p {
+	font-size: 14px;
+	color: #999;
+	margin-bottom: 10px;
+}
+
+.product-detail .pro-info .sale-ads {
+	padding: 20px;
+	background: #eee;
+}
+.product-detail .pro-info .sale-ads p {
+	color: #c40000;
+	line-height: 23px;
+}
+.product-detail .pro-info .color-description p {
+	display: none; /* 所有的P先隐藏，选中的显示 */
+}
+.product-detail .pro-info .color-description > span {
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #666464;
+}
+.product-detail .pro-info .color-description p.color-des-show {
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #666464;
+	display: block;
+}
+.product-detail .pro-info .color-box .color-style-list > li {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin: 0 5px 7px 0;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	position: relative;
+}
+.product-detail .pro-info .color-box .color-style-list > li > img {
+	width: 100%;
+	height: 100%;
+}
+.product-detail .pro-info .color-box .color-style-list > li.select-color {
+	border-color: #be0106;
+}
+.product-detail .pro-info .color-box .color-style-list > li.select-color:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border: 2px solid #be0106;
+}
+.product-detail .pro-info .color-box .color-code > p > span {
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #666464;	
+}
+.product-detail .pro-info .color-box .color-code .size {
+	width: 120px;
+}
+.product-detail .pro-info .color-box .color-code .size-table { /* 写脚本点击显示table */
+	float: right;
+	cursor: pointer;
+}
+
+.product-detail .pro-info .color-box .color-code > ul {
+    display: none;  /* 只有选中ul才能才显示 */	
+}
+.product-detail .pro-info .color-box .color-code > ul > li {
+	float: left;
+	width: 42px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	text-align: center;
+	border: 1px solid #b8b7bd;
+    margin: 0 5px 7px 0;
+    cursor: pointer;
+	position: relative;
+}
+.product-detail .pro-info .color-box .color-code > ul.show-color-list {
+	display: block;
+}
+.product-detail .pro-info .color-box .color-code > ul > li.current {
+	border-color: #be0106;
+}
+.product-detail .pro-info .color-box .color-code > ul > li.current:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border: 2px solid #be0106;
+}
+
+.product-detail .pro-info .color-box .shopping-box .sum-box {
+	position: relative;
+	width: 100px;
+	height: 42px;
+	line-height: 42px;
+	text-align: left;
+	padding-left: 20px;
+	margin-top: 30px;
+	border: 1px solid #e5e5e5;
+	font-size: 16px;
+	cursor: pointer;
+	background: url(../img/product_detail_img/dtl-buy.png) 90px -25px no-repeat;
+}
+.product-detail .pro-info .color-box .shopping-box .sum-box b {
+	font-weight: normal;
+}
+.product-detail .pro-info .color-box .shopping-box .sum-box > ul {
+	position: absolute;
+	top: 44px;
+	left: 0;
+	display: none;
+	
+}
+.product-detail .pro-info .color-box .shopping-box .sum-box > ul > li {  /* 点击显示 */
+	width: 120px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	background: #e5e5e5;;
+	border-bottom: 1px solid #fff;
+
+}
+
+
+.product-detail .pro-info .color-box .shopping-box .shopping-btn > span {
+	margin-left: 4px;
+	width: 156px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 3px;
+	background: #000;
+	cursor: pointer;
+}
+.product-detail .pro-info .color-box .shopping-box .shopping-btn .sub-buy-btn {
+	background: #D00;
+}
+
+.product-detail .pro-info .color-box .shopping-box .pro-intraduction h6 {
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+.product-detail .pro-info .color-box .shopping-box .pro-intraduction p {
+	color: #b1b1b1;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+/*---share and store btn --*/
+.product-detail .share{
+	width: 230px;
+	margin-top: 20px;
+	margin-left: 30%;
+
+}
+.product-detail .share > div {
+	width: 105px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 14px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+.product-detail .share .share-btn {
+	text-align: left;
+	text-indent: 30px;
+	background: url(../img/product_detail_img/dtl-buy.png) 62px -106px no-repeat #ddd;
+}
+
+.product-detail .share .store-btn {
+	background: #fff;
+}
+
+/*shoe-code-table*/
+
+#wrap-product-detail .shoe-code-table {
+	position: absolute;
+	width: 800px;
+	height: 250px;
+	padding: 20px;
+	background: #000;
+	opacity: 0.7;
+	border-radius: 10px;
+	filter: alpha(opacity=30);
+	/*--居中--*/
+	/* ---------- 不居中 ---为什么？*/
+	top: 150px;
+	left: 50%;
+	margin-left: -400px;
+	z-index: 100;
+	display: none;
+	
+}
+.product-detail .shoe-code-table .after {
+	position: absolute;
+	top: 30px;
+	right: 32px;
+	width: 60px;
+	height: 20px;
+	cursor: pointer;
+}
+
+
+/*---maybe like---------*/
+.product-detail .maybe-like {
+	margin-top: 50px;
+	border-top: 1px solid #d9d9d9;
+}
+.product-detail .maybe-like p {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	padding: 65px 0 55px;
+	font-size: 38px;
+}
+.product-detail .maybe-like ul {
+	
+}
+.product-detail .maybe-like ul > li {
+	float: left;
+	margin-right: 16px;
+}
+
+.product-detail .more-detail {
+	width: 100%;
+}
+.product-detail .toggle-btn {
+	width: 350px;
+	margin: 70px auto 30px;	
+}
+.product-detail .toggle-btn > span {
+	position: relative;
+	width: 155px;	
+	height: 43px;
+	line-height: 43px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	border-radius: 2px;
+	margin-right: 20px;
+	background-color: #000;
+	cursor: pointer;
+}
+
+.product-detail .toggle-btn > span.select-btn {
+	background-color: #b5b5b5;	
+}
+.product-detail .toggle-btn > span.select-btn > b {
+	position: absolute;
+	bottom: -15px;
+	left: 63px;
+	width: 30px;
+	height: 15px;
+	background: url(../img/product_detail_img/dtl-buy.png) 5px -70px no-repeat;
+}
+
+.product-detail .pro-more-detail > img {
+	margin: 0 auto;
+} 
+
+
+.product-detail .comment-list {
+	width: 705px;
+	padding: 50px 35px;
+	margin: 0 auto;
+	background: #f5f7f6;
+	display: none;
+}
+
+.product-detail .comment-list ul > li {
+	height: 60px;
+	padding: 20px 0;
+	border-top: 1px solid #ccc;
+	
+} 
+.product-detail .comment-list ul > li > img:first-child {
+	width: 60px;
+	height: 60px;
+	margin-right: 15px;
+}
+.product-detail .comment-list ul > li > p {
+	color: #888;
+	width: 620px;
+}
+.product-detail .comment-list ul > li > p > span {
+	margin-left: 20px;
+}
+.product-detail .comment-list ul > li > p > span:last-child {
+	color: #f00;
+}
+
+.product-detail .comment-list > p {
+    width: 100%;
+    padding: 20px 0;
+    font-size: 18px;
+    text-align: center;
+    border-top: 1px solid #d8d9d9;
+    margin-bottom: 20px
+}
+/*-------------------------------product detail finish----------------------------------------*/
+
